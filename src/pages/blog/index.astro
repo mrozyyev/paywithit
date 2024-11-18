@@ -1,7 +1,7 @@
 ---
-// Blog Index Page
+// Blog Index Page for PayWithIt
 // ------------
-// Description: The blog index page.
+// Description: The blog index page for PayWithIt.
 
 // Components
 // - Layout
@@ -16,16 +16,17 @@ import { getCollection } from 'astro:content'
 // Content
 // - SEO
 const SEO = {
-	title: 'Foxi | Latest Foxi News and updates',
+	title: 'PayWithIt | Latest News and Updates',
 	description:
-		"Explore Foxi's latest news designed to enhance productivity, ensure top-notch security, and integrate seamlessly with your favorite tools. Join thousands of satisfied users and transform your workflow with Foxi today!"
+		"Discover the latest updates about PayWithIt – your seamless payment solution. Explore tips, stories, and insights into secure transactions, efficient integrations, and business growth with PayWithIt."
 }
 // - Page Header
 const header = {
-	title: 'The <strong>Foxi</strong> Blog. Tips, Updates & Stories',
-	text: 'Stay informed, stay productive. All the latest from the world of Foxi.'
+	title: 'The <strong>PayWithIt</strong> Blog. News, Tips & Insights',
+	text: 'Stay up-to-date with the latest news, updates, and tips from PayWithIt. Empower your payments and business journey today!'
 }
 
+// Fetch all blog posts
 const allPosts = await getCollection('blog')
 ---
 
