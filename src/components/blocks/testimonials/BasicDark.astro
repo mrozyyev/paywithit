@@ -11,7 +11,8 @@ import Col from '../../ui/Col.astro'
 // - UI
 import Testimonial from '../../ui/Testimonial.astro'
 
-// Props
+//props
+
 type Props = {
 	blockquote?: string
 	figcaption?: string
@@ -19,13 +20,15 @@ type Props = {
 	bg?: any
 	bgPosition?: 'left' | 'right' | 'center'
 }
+
 const {
-	blockquote = 'Foxi is like a rocket boost for our productivity! Its sleek design and out-of-this-world features make managing projects and team communication a breeze.',
-	figcaption = 'Sheryl Sandberg',
-	cite = 'CEO, Facebook',
+	blockquote = 'PayWithIt will revolutionize how businesses and individuals manage payments across borders. It will deliver secure, fast, and reliable transactions that meet our growing needs.',
+	figcaption = 'John Doe',
+	cite = 'Founder, African Startups Alliance',
 	bg,
 	bgPosition = 'center'
 } = Astro.props
+
 ---
 
 <Section

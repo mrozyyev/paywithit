@@ -34,8 +34,8 @@ export interface NavData {
 export const navigationBarData: NavData = {
 	logo: {
 		src: '/logo.svg',
-		alt: 'The tailwind astro theme',
-		text: 'Foxi.'
+		alt: 'PayWithIt logo',
+		text: 'PayWithIt'
 	},
 	navItems: [
 		{ name: 'Home', link: '/' },
@@ -53,5 +53,5 @@ export const navigationBarData: NavData = {
 		},
 		{ name: 'Contact', link: '/contact' }
 	],
-	navActions: [{ name: 'Try it now', link: '/', style: 'primary', size: 'lg' }]
+	navActions: [{ name: 'Get Early Access', link: '/signup', style: 'primary', size: 'lg' }]
 }

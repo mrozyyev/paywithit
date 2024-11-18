@@ -35,13 +35,13 @@ export interface FooterData {
 
 export const footerNavigationData: FooterData = {
 	footerAbout: {
-		title: 'Foxi.',
+		title: 'PayWithIt',
 		aboutText:
-			'Expertly made, responsive, accessible components in React and HTML ready to be used on your website or app. Just copy and paste them on your Tailwind CSS project.',
+			'PayWithIt provides seamless and secure payment solutions tailored for the African continent. We offer ordinary payment systems backed by European laws and GDPR compliance.',
 		logo: {
 			src: '/logo.svg',
-			alt: 'The tailwind astro theme',
-			text: 'Foxi.'
+			alt: 'PayWithIt logo',
+			text: 'PayWithIt'
 		}
 	},
 	footerColumns: [
@@ -65,30 +65,30 @@ export const footerNavigationData: FooterData = {
 					subCategoryLink: '/changelog'
 				},
 				{
-					subCategory: 'Terms',
+					subCategory: 'Terms & Conditions',
 					subCategoryLink: '/terms'
 				}
 			]
 		},
 		{
-			category: 'About us',
+			category: 'About Us',
 			subCategories: [
 				{
-					subCategory: 'About us',
-					subCategoryLink: '/'
+					subCategory: 'About Us',
+					subCategoryLink: '/about'
 				},
 				{
 					subCategory: 'News',
-					subCategoryLink: '/blog'
+					subCategoryLink: '/news'
 				},
 				{
 					subCategory: 'Careers',
-					subCategoryLink: '/blog'
+					subCategoryLink: '/careers'
 				}
 			]
 		},
 		{
-			category: 'Get in touch',
+			category: 'Get In Touch',
 			subCategories: [
 				{
 					subCategory: 'Contact',
@@ -96,16 +96,16 @@ export const footerNavigationData: FooterData = {
 				},
 				{
 					subCategory: 'Support',
-					subCategoryLink: '/contact'
+					subCategoryLink: '/support'
 				},
 				{
-					subCategory: 'Join us',
-					subCategoryLink: '/contact'
+					subCategory: 'Join Us',
+					subCategoryLink: '/join'
 				}
 			]
 		}
 	],
 	subFooter: {
-		copywriteText: '© Foxi 2024.'
+		copywriteText: '© PayWithIt 2024. All rights reserved.'
 	}
 }

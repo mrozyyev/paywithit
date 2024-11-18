@@ -21,13 +21,13 @@ export interface Config {
 }
 
 export const configData: Config = {
-	siteTitle: 'Foxi. Tailwind CSS Astro Starter Kit by Oxygenna',
+	siteTitle: 'PayWithIt is a Modern Payment Solution for Africa',
 	siteDescription:
-		'Foxi is a design and development agency that specializes in creating beautiful and functional websites.',
+		'PayWithIt is bringing secure, flexible payments to Africa, backed by European compliance and privacy standards',
 	ogImage: '/og.jpg',
 	logo: {
 		src: '/logo.svg',
-		alt: 'Foxi. logo'
+		alt: 'PayWitIt logo'
 	},
 	canonical: true,
 	noindex: false,

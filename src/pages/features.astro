@@ -19,44 +19,44 @@ const featuresSupport = featuresData.filter((feature) => feature.category === 'S
 // Content
 // - SEO
 const SEO = {
-	title: 'Foxi | Features to Boost Productivity & Security',
+	title: 'PayWithIt | Features to Simplify Payments & Boost Productivity',
 	description:
-		"Explore Foxi's powerful features designed to enhance productivity, ensure top-notch security, and integrate seamlessly with your favorite tools. Join thousands of satisfied users and transform your workflow with Foxi today!"
+		"Explore PayWithIt's cutting-edge features designed to simplify payments, enhance security, and streamline productivity. Join thousands of businesses and unlock seamless payment management and growth today!"
 }
 // - Page Header
 const header = {
-	title: 'Why you and your team will <strong>love</strong> foxi.',
-	text: 'Streamline your tasks, protect your data, and enjoy working with our tools!'
+	title: 'Why you and your team will <strong>love</strong> PayWithIt.',
+	text: 'Simplify payments, enhance security, and improve efficiency with powerful tools designed for businesses.'
 }
 ---
 
 <Layout title={SEO.title} description={SEO.description}>
 	<Hero title={header.title} text={header.text} />
 	<Feature
-		title="Insightful Analytics"
-		text="Delve into your data with precision and uncover actionable insights."
-		data={featuresAnalytics}
+		title="Streamlined Payments"
+		text="Effortlessly process payments from clients and customers using our intuitive platform."
+		data={featuresProductivity}
 	/>
 	<Feature
-		title="Efficiency Unleashed"
-		text="Streamline tasks and focus on what matters with tools designed to boost your productivity."
+		title="Advanced Security"
+		text="Protect your financial transactions and sensitive data with our top-tier encryption and fraud detection systems."
 		data={featuresSecurity}
 		classes="bg-neutral-50 dark:bg-neutral-900"
 	/>
 	<Feature
-		title="Ultimate Data Protection"
-		text="Keep your data safe with top-notch security measures and real-time threat detection."
-		data={featuresProductivity}
+		title="Analytics & Insights"
+		text="Access real-time payment insights and analytics to make informed decisions and optimize your business strategies."
+		data={featuresAnalytics}
 	/>
 	<Feature
-		title="Seamless Connectivity"
-		text="Effortlessly connect your favorite apps and automate workflows for a smoother workday."
+		title="Seamless Integrations"
+		text="Connect with your favorite tools and automate financial workflows for a more efficient business operation."
 		data={featuresIntegrations}
 		classes="bg-neutral-50 dark:bg-neutral-900"
 	/>
 	<Feature
-		title="24/7 Expert Help"
-		text="Our friendly support team is always here to assist you with any questions or issues."
+		title="24/7 Customer Support"
+		text="Our dedicated support team is always available to assist you with payment issues and inquiries."
 		data={featuresSupport}
 	/>
 	<CTA />
