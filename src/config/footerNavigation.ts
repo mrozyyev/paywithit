@@ -60,10 +60,10 @@ export const footerNavigationData: FooterData = {
 					subCategory: 'Pricing',
 					subCategoryLink: '/pricing'
 				},
-				{
-					subCategory: 'Changelog',
-					subCategoryLink: '/changelog'
-				},
+				// {
+				// 	subCategory: 'Changelog',
+				// 	subCategoryLink: '/changelog'
+				// },
 				{
 					subCategory: 'Terms & Conditions',
 					subCategoryLink: '/terms'
