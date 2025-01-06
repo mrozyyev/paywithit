@@ -8,56 +8,56 @@ import Hero from '../components/blocks/hero/PageHeader.astro'
 import CTA from '../components/blocks/CTA/BasicDark.astro'
 
 // Data
-import featuresData from '../data/json-files/featuresData.json'
+import featuresData from '../data/json-files/featuresDataPWI.json'
 // - Feature Categories
-const featuresAnalytics = featuresData.filter((feature) => feature.category === 'Analytics')
-const featuresProductivity = featuresData.filter((feature) => feature.category === 'Productivity')
+const featuresUserExperience = featuresData.filter((feature) => feature.category === 'User Experience')
 const featuresSecurity = featuresData.filter((feature) => feature.category === 'Security')
-const featuresIntegrations = featuresData.filter((feature) => feature.category === 'Integrations')
-const featuresSupport = featuresData.filter((feature) => feature.category === 'Support')
+const featuresUserEngagement = featuresData.filter((feature) => feature.category === 'User Engagement')
+const featuresPayments = featuresData.filter((feature) => feature.category === 'Payments')
+const featuresBenefits = featuresData.filter((feature) => feature.category === 'Benefits')
 
 // Content
 // - SEO
 const SEO = {
-	title: 'PayWithIt | Features to Simplify Payments & Boost Productivity',
+	title: 'PayWithIt | Features to Simplify Payments & Enhance Security',
 	description:
-		"Explore PayWithIt's cutting-edge features designed to simplify payments, enhance security, and streamline productivity. Join thousands of businesses and unlock seamless payment management and growth today!"
+		"Explore PayWithIt's advanced features designed to simplify payments, enhance security, and improve financial management. Join businesses worldwide in optimizing payment workflows and achieving success!"
 }
 // - Page Header
 const header = {
-	title: 'Why you and your team will <strong>love</strong> PayWithIt.',
-	text: 'Simplify payments, enhance security, and improve efficiency with powerful tools designed for businesses.'
+	title: 'Discover why businesses <strong>trust</strong> PayWithIt.',
+	text: 'Revolutionize payment processing, elevate security, and boost efficiency with PayWithIt’s powerful tools for businesses.'
 }
 ---
 
 <Layout title={SEO.title} description={SEO.description}>
 	<Hero title={header.title} text={header.text} />
 	<Feature
-		title="Streamlined Payments"
-		text="Effortlessly process payments from clients and customers using our intuitive platform."
-		data={featuresProductivity}
+		title="Enhanced User Experience"
+		text="Build trust with your users through secure, seamless, and intuitive interactions."
+		data={featuresUserExperience}
 	/>
 	<Feature
-		title="Advanced Security"
-		text="Protect your financial transactions and sensitive data with our top-tier encryption and fraud detection systems."
+		title="Top-Tier Security"
+		text="Safeguard your financial transactions with advanced encryption and biometric authentication."
 		data={featuresSecurity}
 		classes="bg-neutral-50 dark:bg-neutral-900"
 	/>
 	<Feature
-		title="Analytics & Insights"
-		text="Access real-time payment insights and analytics to make informed decisions and optimize your business strategies."
-		data={featuresAnalytics}
+		title="Engaging User Notifications"
+		text="Keep users informed with real-time notifications and alerts for transactions and account activities."
+		data={featuresUserEngagement}
 	/>
 	<Feature
-		title="Seamless Integrations"
-		text="Connect with your favorite tools and automate financial workflows for a more efficient business operation."
-		data={featuresIntegrations}
+		title="Streamlined Payments"
+		text="Offer a variety of payment options, including mobile payments and e-wallets, to enhance convenience."
+		data={featuresPayments}
 		classes="bg-neutral-50 dark:bg-neutral-900"
 	/>
 	<Feature
-		title="24/7 Customer Support"
-		text="Our dedicated support team is always available to assist you with payment issues and inquiries."
-		data={featuresSupport}
+		title="Financial Benefits"
+		text="Empower users with tools like tax preparation assistance, budget planning, and real-time balance updates."
+		data={featuresBenefits}
 	/>
 	<CTA />
 </Layout>

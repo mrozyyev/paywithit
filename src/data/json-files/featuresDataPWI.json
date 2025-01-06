@@ -1,0 +1,69 @@
+[
+	{
+	  "title": "User Retention Through Security",
+	  "icon": "shield-check",
+	  "description": "Enhance user retention by establishing a strong sense of security. Users are more likely to trust and continue using the app when their money is safeguarded.",
+	  "category": "User Experience"
+	},
+	{
+	  "title": "Biometric Authentication",
+	  "icon": "identification",
+	  "description": "Ensure app security with biometric authentication using unique traits like fingerprints, facial recognition, or iris scans. This method surpasses traditional password-based authentication.",
+	  "category": "Security"
+	},
+	{
+	  "title": "Real-Time Notifications and Alerts",
+	  "icon": "bell",
+	  "description": "Provide instant updates on account activities, security events, and transactions. Empower users to act promptly and make informed financial decisions.",
+	  "category": "User Engagement"
+	},
+	{
+	  "title": "Transaction Notifications",
+	  "icon": "clipboard-document-list",
+	  "description": "Notify users instantly about account transactions like deposits, withdrawals, payments, or transfers for better financial monitoring.",
+	  "category": "User Engagement"
+	},
+	{
+	  "title": "Account Balance Updates",
+	  "icon": "document-chart-bar",
+	  "description": "Keep users informed about their account balances in real time to assist with better budgeting and financial planning.",
+	  "category": "User Engagement"
+	},
+	{
+	  "title": "Payment Reminders",
+	  "icon": "bell-alert",
+	  "description": "Send timely reminders for bill payments, loan repayments, and subscription renewals to help users avoid penalties.",
+	  "category": "User Engagement"
+	},
+	{
+	  "title": "Multiple Payment Gateways",
+	  "icon": "credit-card",
+	  "description": "Offer a variety of payment options such as credit/debit cards, mobile wallets, peer-to-peer payments, and cryptocurrencies to enhance user convenience and reach a broader audience.",
+	  "category": "Payments"
+	},
+	{
+	  "title": "Secure Payment Gateways",
+	  "icon": "identification",
+	  "description": "Ensure secure transactions with TLS encryption and compliance with PCI DSS standards. Enable two-factor authentication for added security.",
+	  "category": "Security"
+	},
+	{
+	  "title": "Mobile Payments",
+	  "icon": "mobile",
+	  "description": "Provide a seamless mobile payment experience with features like competitive exchange rates, blockchain integration, and 24/7 live chat support.",
+	  "category": "Payments"
+	},
+	{
+	  "title": "E-Wallet Features",
+	  "icon": "credit-card",
+	  "description": "Enable features like bill reminders, offline payments, budget planning, and real-time cash flow monitoring. Simplify transactions for both businesses and individuals.",
+	  "category": "Payments"
+	},
+	{
+	  "title": "E-Wallet Benefits",
+	  "icon": "trophy",
+	  "description": "Help users save time and money by streamlining financial management with real-time balance tracking and tax preparation assistance.",
+	  "category": "Benefits"
+	}
+  ]
+  

@@ -11,34 +11,34 @@ import CTA from '../components/blocks/CTA/BasicDark.astro'
 // Data
 import faqData from '../data/json-files/faqData.json'
 // - FAQ Categories
-const faqPricing = faqData.filter((faq) => faq.category === 'pricing')
-const faqIntegrations = faqData.filter((faq) => faq.category === 'integrations')
+const faqFeatures = faqData.filter((faq) => faq.category === 'features')
+const faqSecurity = faqData.filter((faq) => faq.category === 'security')
 
 // Content
 import faqImage1 from '../assets/faq/faq-01.png'
 // - SEO
 const SEO = {
-	title: 'Foxi | Get Your Questions Answered with a Smile',
+	title: 'PayWithIt | Get Your Questions Answered with Confidence',
 	description:
-		'Dive into the Foxi FAQ Funhouse to get answers to all your questions about pricing, integrations, features, and more. Discover how Foxi can make your work life more productive and enjoyable.'
+		"Explore PayWithIt's FAQ section to find answers about features, security, integrations, and more. Learn how PayWithIt simplifies payments and enhances productivity."
 }
 // - Page Header
 const header = {
-	title: 'Get Answers to Your <strong>Foxi</strong> Questions.',
-	text: 'Find answers to common questions about Foxi '
+	title: 'Answers to Your <strong>PayWithIt</strong> Questions.',
+	text: 'Find answers to common questions about PayWithIt and discover how it can transform the way you manage your payments.'
 }
 ---
 
 <Layout title={SEO.title} description={SEO.description}>
 	<Hero title={header.title} text={header.text} />
 	<FAQ
-		title="Understanding Our Pricing Plans"
-		text="Get all the details on Foxi’s pricing plans. Learn about the costs, discounts, and subscription options to find the best plan that fits your needs and budget."
-		data={faqPricing}
+		title="Explore Features"
+		text="Learn about the powerful features of PayWithIt. From seamless payment processing to insightful analytics, discover how our tools make financial management easier."
+		data={faqFeatures}
 	/>
 	<TextImage
-		title="Why Foxi’s Pricing Plans Offer Great Value"
-		text="At Foxi, we believe in providing exceptional value at every price point. Our pricing plans are designed to cater to a variety of needs, from individuals and small teams to large enterprises. Each plan includes access to our powerful features, seamless integrations, and top-notch customer support. "
+		title="Why Choose PayWithIt for Your Payment Needs"
+		text="PayWithIt is designed to provide exceptional value with its innovative features and secure platform. Whether you’re a small business or a large enterprise, we ensure that our tools cater to your unique financial management needs. Experience seamless integrations, robust security, and an intuitive user experience."
 		image={faqImage1}
 		mobileImage={faqImage1}
 		imagePosition="left"
@@ -46,9 +46,9 @@ const header = {
 		classes="bg-neutral-50 dark:bg-neutral-900 lg:!py-64"
 	/>
 	<FAQ
-		title="Integrations Made Easy"
-		text="Discover how Foxi seamlessly integrates with your favorite tools and platforms. From Google Calendar to Slack, find out how to connect and enhance your productivity with powerful integrations."
-		data={faqIntegrations}
+		title="Stay Secure"
+		text="Security is at the core of PayWithIt. Explore how our advanced encryption and GDPR-compliant measures protect your transactions and data from threats."
+		data={faqSecurity}
 	/>
 	<CTA />
 </Layout>
